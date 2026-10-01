@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projetos | ONG</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+<header>
+  <a class="skip-link" href="#app">Pular para o conteúdo principal</a>
+  <div class="container">
+    <a href="index.html" class="logo" aria-label="Página inicial da ONG">
+      <img src="../Assets/logo.jpg" alt="Logotipo da ONG, representando união, proteção e acolhimento." width="100" height="100">
+      <span class="site-title">Página da ONG</span>
+    </a>
+
+    <button
+      type="button"
+      id="menu-toggle"
+      class="menu-icon"
+      aria-controls="main-nav"
+      aria-expanded="false"
+      aria-label="Abrir menu de navegação">
+      <span aria-hidden="true">☰</span>
+    </button>
+
+    <button type="button" class="overlay" aria-label="Fechar menu de navegação"></button>
+
+    <nav id="main-nav" aria-label="Navegação principal">
+      <ul>
+        <li><a href="index.html" class="button">Início</a></li>
+        <li class="dropdown">
+          <a href="projetos.html" class="button">Projetos</a>
+          <ul class="submenu">
+            <li><a href="#projeto1">Projeto 1</a></li>
+            <li><a href="#projeto2">Projeto 2</a></li>
+            <li><a href="#projeto3">Projeto 3</a></li>
+          </ul>
+        </li>
+        <li><a href="cadastro.html" class="button">Cadastro</a></li>
+        <li><a href="#sobre" class="button">Sobre nós</a></li>
+        <li><a href="#suporte" class="button">Suporte</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="app">
+  <section aria-labelledby="titulo-projetos">
+    <h1 id="titulo-projetos">Nossos projetos</h1>
+    <p>Conheça as iniciativas desenvolvidas pela ONG.</p>
+  </section>
+  <section aria-labelledby="projeto-educacao">
+    <span class="badge badge-inclusao">Inclusão</span>
+    <h2 id="projeto-educacao" data-aos="fade-up">Educação para Todos</h2>
+    <p>Este projeto visa fornecer recursos educacionais e apoio a crianças e jovens em situação de vulnerabilidade, garantindo acesso à educação de qualidade.</p>
+  </section>
+  <section aria-labelledby="projeto-saude">
+    <span class="badge badge-sustentabilidade">Sustentabilidade</span>
+    <h2 id="projeto-saude" data-aos="fade-up">Saúde e Bem-Estar</h2>
+    <p>Nosso objetivo é promover a saúde e o bem-estar da comunidade, oferecendo serviços de saúde, campanhas de conscientização e atividades físicas para todos.</p>
+  </section>
+  <section aria-labelledby="projeto-suporte">
+    <span class="badge badge-suporte">Suporte</span>
+    <h2 id="projeto-suporte" data-aos="fade-up">Suporte à Comunidade</h2>
+    <p>Este projeto busca fornecer suporte e assistência a famílias em situação de vulnerabilidade, oferecendo alimentos, roupas e recursos essenciais para uma vida digna.</p>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2026 ONG. Todos os direitos reservados.</p>
+</footer>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="module" src="../js/script.js"></script>
+</body>
+</html>

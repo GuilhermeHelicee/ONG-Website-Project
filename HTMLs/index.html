@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página da ONG</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+<header>
+  <a class="skip-link" href="#app">Pular para o conteúdo principal</a>
+  <div class="container">
+    <a href="index.html" class="logo" aria-label="Página inicial da ONG">
+      <img src="../Assets/logo.jpg" alt="Logotipo da ONG, representando união, proteção e acolhimento." width="100" height="100">
+      <span class="site-title">Página da ONG</span>
+    </a>
+
+    <button
+      type="button"
+      id="menu-toggle"
+      class="menu-icon"
+      aria-controls="main-nav"
+      aria-expanded="false"
+      aria-label="Abrir menu de navegação">
+      <span aria-hidden="true">☰</span>
+    </button>
+
+    <button type="button" class="overlay" aria-label="Fechar menu de navegação"></button>
+
+    <nav id="main-nav" aria-label="Navegação principal">
+      <ul>
+        <li><a href="index.html" class="button">Início</a></li>
+        <li class="dropdown">
+          <a href="projetos.html" class="button">Projetos</a>
+          <ul class="submenu">
+            <li><a href="#projeto1">Projeto 1</a></li>
+            <li><a href="#projeto2">Projeto 2</a></li>
+            <li><a href="#projeto3">Projeto 3</a></li>
+          </ul>
+        </li>
+        <li><a href="cadastro.html" class="button">Cadastro</a></li>
+        <li><a href="#sobre" class="button">Sobre nós</a></li>
+        <li><a href="#suporte" class="button">Suporte</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="app">
+  <section class="hero" aria-labelledby="titulo-principal">
+    <div class="hero-content">
+      <span class="hero-label">Tecnologia para todos</span>
+      <h1 id="titulo-principal">Bem-vindo à nossa ONG!</h1>
+      <p>Estamos comprometidos em fazer a diferença na vida das pessoas e da comunidade.</p>
+      <a href="projetos.html" class="button">Conheça nossos projetos</a>
+    </div>
+    <div class="hero-visual" aria-hidden="true"></div>
+  </section>
+
+  <aside class="news" aria-labelledby="titulo-noticias">
+    <h2 id="titulo-noticias">Notícias</h2>
+    <p>Fique por dentro das últimas notícias e atualizações sobre nossos projetos e atividades.</p>
+  </aside>
+
+  <section class="about" aria-labelledby="titulo-sobre">
+    <h2 id="titulo-sobre">Sobre a iniciativa</h2>
+    <p>Nosso objetivo é promover a inclusão social, a educação e o bem-estar das pessoas. Acreditamos que cada ação conta e que juntos podemos construir um futuro melhor.</p>
+  </section>
+
+  <section class="contact" aria-labelledby="titulo-contato">
+    <h2 id="titulo-contato">Como nos encontrar</h2>
+    <p>Endereço: Rua da Solidariedade, 123 - Bairro Esperança, Cidade XYZ</p>
+    <p>Email: contato@ong.org</p>
+    <p>Telefone: (11) 1234-5678</p>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2026 ONG. Todos os direitos reservados.</p>
+</footer>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="module" src="../js/script.js"></script>
+</body>
+</html>
